@@ -11,7 +11,7 @@ const App = () => {
             setError(err.message)
         })
     },[])
-    
+    console.log(error)
     
     return (
         <div>
